@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories16.html">&lt;</a></li>
+                <li>고스트의 보호자</li>
+                <li><a href="GhostStories18.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">고스트의 보호자</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    보낸 사람: 미카-10
+                </p><br>
+                <p>
+                    받는 사람: 탈룰라 페어윈드
+                </p><br>
+                <p>
+                    범주: 5-잡담
+                </p><br>
+                <p>
+                    우선 순위: 3
+                </p><br>
+                <p>
+                    옛 친구에게:
+                </p><br>
+                <p>
+                    헌터 찾는 요령을 터득했어. 
+                    내 고스트 중 하나가 인간 남자 파트너를 찾았는데, 지금 둘이 배를 타고 태평양을 건너 너한테 가고 있어. 
+                    이놈을 주시해야 돼, 탈루. 
+                    안달 브라스크라는 놈인데, 분명 골칫거리가 될 거야.
+                </p>
+                <p>
+                    내가 여행을 너무 오래 해서 감상적이 된 것 같아. 
+                    내 고스트 중 하나가 수호자를 찾으면 슬프거든. 
+                    고스트 팩이 줄어드니까. 
+                    고스트가 떠나면 보고 싶어져. 
+                    이제 내 고스트를 제외하면 남은 고스트는 하나뿐이야. 
+                    펍이라는 고스트지. 
+                    금속 찌꺼기로 만든 왜소한 녀석이야. 
+                    아직 말은 못 하지만 작고 파란 눈으로 늘 수호자를 찾고 있어.
+                </p><br>
+                <p>
+                    발사 기지에서 기름 좀 넣은 후에 펍을 데리고 북쪽으로 가려고 해. 
+                    그 스텝 지대는 외로운 늑대 코나르 외에는 아무도 없는 미답의 영토거든. 
+                    코나르에게는 정기적으로 메시지를 보내고 있어. 
+                    5번 보낼 때마다 한 번씩은 답장을 보내 주니 다행이지. 
+                    알다시피 정보는 쓸만하잖아. 
+                    코나르만큼 옛 러시아를 잘 아는 사람도 없으니까.
+                </p><br>
+                <p>
+                    발타자르: 어떤 의미에서 보면 이번 인터뷰에서는 딱 그 질문만 하면 된다고 할 수도 있어요. 
+                    여행자는 우리의 근원이자 어머니이자 태초의 존재이자 정점이라 할 수 있죠. 
+                    제 친구인 푸자리의 고스트는 난생처음 듣는 노래에 여행자를 비교하기도 했어요.
+                </p><br>
+                <p>
+                    발사 기지에서 대기권을 벗어날 수 있는 우주선을 찾을 수 있을지도 몰라. 
+                    이 지구에도 아직 가 보지 못한 곳이 많지만, 수호자가 외계에서 자유요새와 이슈타르 너머에 있는 황금기의 유적을 기다리고 있다고 믿고 있는 고스트가 많거든. 
+                    이 빛의 고스트 중 몇몇은 용감하게 운명의 상대를 찾기로 했지. 
+                    그런 고스트들에게는 지구에도 갈 곳이 아직 많고, 수호자는 아직 태어나지 않았을 수도 있다고 얘기했지만 결심이 너무 확고해서 말이야. 
+                    다음 고스트가 여행을 떠나려 한다면 나도 같이 갈 거야. 
+                </p><br>
+                <p>
+                    최근 몇 달 동안은 사이렐이 나타나지 않아서 아주 좋았어. 
+                    지금 생각해 보니 호주에서 사이렐을 놓친 것 같아. 
+                    놈이 내 고스트를 해치려 한다면 모가지를 따 버릴 거야.
+                </p><br>
+                <p>
+                    갑갑하다고 생각하지 않았으면 좋겠어. 
+                    넌 여전히 잘하고 있어, 탈루. 
+                    나보다 훨씬 더 말이야.
+                </p><br>
+                <p>
+                    너의 옛 고스트 어머니 
+                </p>
+                <p>
+                    미카-10
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
