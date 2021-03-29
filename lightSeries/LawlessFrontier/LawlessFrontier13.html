@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="LawlessFrontier12.html">&lt;</a></li>
+                <li>엘드레드 러시의 슬픈 이야기</li>
+                <li><a href="LawlessFrontier14.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">엘드레드 러시의 슬픈 이야기</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    "엘드레드 러시에 대한 얘길 해 줄게. 
+                    그자가 사서 고생하려고 여기에 온 건 아냐. 
+                    바보는 아니었거든. 
+                    문제가 있을 거라고 예상하고 있었지. 
+                    그냥 신경 쓰지 않은 것일 뿐이야. 
+                    신경 쓸 수가 없었다고 하는 자도 있긴 해.
+                </p><br>
+                <p>
+                    "엘드레드는 탐사자 같은 거였어. 
+                    중요하다고 생각하는 기억을 찾아 이 지역을 들쑤시고 다녔지. 
+                    그는 개인적이고 뚜렷한 임무가 있었어. 
+                    자기 사람들이 쓰러진 바위를 찾는 거였지. 
+                    그가 이렇게까지 멀리 온 첫 번째 수호자라는 소리도 있어. 
+                    그건 사실이 아니지만, 잘 어울리는 설정이야. 
+                    더 전설적인 인물로 부각할 수도 있고.
+                </p><br>
+                <p>
+                    "엘드레드는 홀로 이 뒤엉킨 땅을 걸었어. 
+                    돌고 돌며 최대한 충돌은 피했지만 어쩔 수 없는 상황에선 물러서지 않았지. 
+                    그는 상냥했지만 성질을 건드리면 매우 난폭해지는 자였어.
+                </p><br>
+                <p>
+                    "결국 그는 고대 붕괴에서 살아남았던 옛 생존자들이 모여서 죽은 장소를 찾아냈어. 
+                    이제는 기억조차 없는 옛 생에서의 모든 걸 앗아간 그곳에서 엘드레드는 기억할 순 없지만 가슴으로 느껴지는 옛 동료들의 시신을 묻었어.
+                </p><br>
+                <p>
+                    "그리고 다시는 엘드레드를 볼 수 없었지. 그 누구도 말야."
+                </p><br>
+                <p>
+                    - C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

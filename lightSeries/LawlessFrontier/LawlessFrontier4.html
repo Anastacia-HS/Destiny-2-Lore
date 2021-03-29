@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="LawlessFrontier3.html">&lt;</a></li>
+                <li>10배의 비통</li>
+                <li><a href="LawlessFrontier5.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">10배의 비통</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>"해가 되는 자를 조심하라.</p>
+                <p>나 자신을 포함해서.</p>
+                <p>파멸의 길로 들어서지 않도록 조심하라.</p>
+                <p>고통을 주는 것에서 기쁨을 느끼게 되면 짐승과 다를 바가 없다.</p>
+                <p>우린 그보단 나은 존재가 아닌가?</p>
+                <p>더 나은 존재가 되려고 애쓰지 않는가?"</p>
+                <p>- C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌</p><br>
+
+                <p>
+                    늑대의 가문의 최후를 지켜본 자는 레크시스 반이었다. 
+                    차가운 분노를 가슴에 품은 그는 아무 것도 남지 않을 때까지 그들의 서비터를 학살했고, 광적이던 가문 하나가 그렇게 사라졌다.
+                </p><br>
+                <p>
+                    하지만 레크시스 반의 분노는 사그라들지 않았다. 
+                    그 분노의 대상이 늑대의 가문 하나만은 아니기 때문이었다. 
+                    가문 정치 의식에 집착했던 모든 몰락자가 그의 철천지원수였다.
+                </p><br>
+                <p>
+                    그는 어린 드렉 시절 굶주린 생활을 했다고 한다. 
+                    그 자신과 그의 동족이 밑바닥 삶에서 벗어날 수 없는 상황 속에 다른 자들이 점점 힘을 키워가는 모습을 바라만 보는 것은 고통이었다. 
+                    그와 동족은 자격 없고 무기력하며 환영받지 못하는 존재였다. 
+                    하지만 레크시스는 알고 있었다. 
+                    그는 집정관 숭배 이면에 숨겨진 거짓을 꿰뚫어 보았다. 
+                    군중을 지배하기 위해 서비터를 신격화하고 있다는 사실을 말이다.
+                </p><br>
+                <p>
+                    몰락자 기술이 위용을 과시하던 시절이 있었으나 이제는 아니었다. 
+                    가문들은 전쟁과 암투로 분열되었고 옛 영광은 보다 절박한 생존이라는 목적하에 퇴색한지 오래였다.
+                </p><br>
+                <p>
+                    밑바닥 생활을 하며 레크시스는 자라나는 분노에서 힘을 키워갔다. 
+                    경멸 어린 조롱을 영광의 배지로 여기는 경멸자라고 하는 뒤틀린 추방자들이 그와 같은 경멸감을 갖고 있다는 사실을 알게 된 순간 레크시스는 자신의 분노를 표출할 방법을 찾았다. 
+                    그의 새로운 동족은 범접할 수 없는 그의 분노를 높게 샀다. 
+                    그들은 모두 조금씩은 제정신이 아니었다. 모두 조금씩 뒤틀린 자였다.
+                </p><br>
+                <p>
+                    하지만 다른 자들은 광기로 치닫는 동안에도 레크시스의 정신과 목적은 뚜렷했다. 
+                    끔찍한 죽음의 고통이 바로 그의 목적이었다. 
+                    그의 표적은 자신에겐 허락되지 않았던 서비터였다. 
+                    몰락자를 지탱해 온 바로 그 기계 말이다.
+                </p><br>
+                <p>
+                    그는 기계가 내뱉는 최후의 비명이 해안 전체에, 아니 리프… 아니 행성계 전체에 울려 퍼질 때까지 그 금속 쪼가리를 찢고 자르고 짓뭉갤 것이었다. 
+                    그는 경멸자 남작과 함께하지 않는 모든 자에게 자신이 예전에 느꼈던 분노를 그대로 느끼게 해줄 것이었다. 
+                    딱 열 배로 더 말이다.
+                </p><br>
+                <p>
+                    아주 기쁜 마음으로 적의 눈에서 생명이 꺼져가는 모습을 지켜볼 것이었다.
+                </p><br>
+            </div>
+        </div>
+    </body>
+</html>

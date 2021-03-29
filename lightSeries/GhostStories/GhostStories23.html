@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories22.html">&lt;</a></li>
+                <li>미지의 지도</li>
+                <li>&gt;</li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">미지의 지도</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    그의 목이 꺾였어. 
+                    그는 충격으로 사망했지. 
+                    난 그를 깨워 상태가 어떤지 물었지. 
+                    그는 괜찮다고 했어. 
+                    그에게 느낌이 어떠냐고 물었지. 
+                    그는 기억이 안 난다고 했어. 
+                    그에게 뭔가를 배웠냐고 물었어. 
+                    그는 "아니. 다시 해 보자."라고 했어. 
+                    그래서 또 똑같이 떨어졌지. 
+                    똑같은 거리를. 
+                    오늘만 5번째 낙하야. 
+                    이번에는 곤두박질치지 않도록 궤도를 좀 더 지면과 평행하게 (의도적으로) 수정했더군. 
+                    실험의 결과 범위를 좀 더 넓혀 보려고 변화를 준 것 같아.
+                </p><br>
+                <p>
+                    그는 거의 평평하게 떨어졌지. 
+                    질척한 땅에 처박히는 소리가 들렸지. 
+                    그는 즉사했어. 
+                    난 그를 깨워서 똑같은 질문을 했고, 대답도 똑같았지.
+                </p><br>
+                <p>
+                    할 수 있는 건 전부 다 해 봤어. 
+                </p><br>
+                <p>
+                    상상할 수 있는 모든 총알과 사거리에서 실탄을 쏴서 급사도 시켜 봤고, 완력, 액체, 진공 등으로 천천히 질식사도 시켜 봤어. 
+                    슈퍼버그, 독극물, 방사능 등의 생물학적 방법으로도 죽여 봤고.
+                </p><br>
+                <p>
+                    즉사부터 몇 년에 걸쳐 서서히 죽는 방식까지, 죽음에 이르는 기간도 다양하게 바꿔 봤어. 
+                    최적의 방법을 찾기 위해, 다른 용도로 더 알차게 쓸 수 있는 귀중한 시간을 낭비했지.
+                </p><br>
+                <p>
+                    난 회의적인 편은 아니지만, "실수에서 배운다"느니 "포기해야 할 때를 알아야 한다"느니 그런 속담이 생각나더군… 정말 알 수가 없어. 
+                    하지만 헛수고라는 것만은 알겠더군.
+                </p><br>
+                <p>
+                    할 수 있는 방법은 다 써 봤어. 
+                    하지만 아무것도 배운 건 없었어. 
+                    그렇지 않다고 하는 사람들도 있겠지. 
+                    저승에 다녀왔다고 하는 사람들도 있을 거야. "어떻게 증명할 건데?" 
+                    난 이렇게 대답해 줄 거야. "삶이 기다리고 있다면 죽음은 답이 될 수 없어."
+                </p><br>
+                <p>
+                    난 많은 이야기를 했지. 
+                    하지만 아직도 이 모양이야. 
+                    내 수호자는 탑보다 두 배나 높은 절벽 밑에 누워 있었어. 
+                    깨웠더니 이번에도 "난 괜찮아. 모르겠어. 다시 해 보자." 뭐 이런 말을 하더군.
+                </p><br>
+                <p>
+                    그래서 다시 해 볼 거야. 
+                    미지의 지도를 만든다는 건, 찾지 못한 답이 "다시 시도"라는 말의 저편에 숨어 있을 수도 있다는 의미이니까.
+                </p><br>
+                <p>
+                    —수호자의 되풀이되는 저승탐사 기술에 의문을 품은 고스트
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

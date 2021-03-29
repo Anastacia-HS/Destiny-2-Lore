@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="CaydeCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li>&lt;</li>
+                <li>딜</li>
+                <li><a href="Cayde2.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="케이드라 불린 사나이.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">케이드라 불린 사나이</div>
+                    <div class="subTitle">딜</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    농담이 아니라 진짜로 내가 실수한 걸지도 모르겠어. 나름 최근에 말이야.
+                </p><br>
+                <p>
+                    그래, 못 믿겠지. 하지만 사실일 수 있어. 어쩌면 말이지.
+                </p><br>
+                <p>
+                    그럼 그 실수가 뭐였는지 얘기해 줄게. 거기서 배울 게 있을 거야. 
+                    다시 한 번 말하지만 이건 내가 실수를 했을 수도 있다는 이론적 가설하에 말하는 거야. 
+                    그래, 뭐 그렇다는 거지. 이 사소한 가상의 실수에서 교훈을 얻도록 해봐. 그들이 그렇게 말한 거야. 
+                    여기서 "그들"은 아이코라야. 에리스는 좀 다르게 말하더라고. 
+                    에리스는 여러 가지 것들을 좀 다르게 말하긴 하지. 
+                </p><br>
+                <p>
+                    아 그 꼬마 보고싶어지네.
+                </p><br>
+                <p>
+                    하지만 난 지금 여기서 시간이나 벌고 있지.
+                </p><br>
+                <p>
+                    나한텐 쉬운 일이 아니었어.
+                </p><br>
+                <p>
+                    그럴 줄 알았는데 말이지. 쉬울 줄 알았다고. 최소한… 이거보단 쉬울 줄 알았지. 
+                    사실 쉬울 거라고 생각했던 건 엄청 많았어. 
+                    망할… 엄청 많은 것들에 대해 엄청나게 많이 생각했지. 그런데 그래서 지금의 내가 있는 걸지도 몰라. 그런 걸 통해 인간이라는 존재가 되는 걸지도 모르지. 
+                    원대한 생각과 계획, 희망, 꿈 뭐 그런 모든 말캉거리는 헛소리들 말이야.
+                </p><br>
+                <p>
+                    그래, 그러니까 내 말은 이런 거야. 
+                    내가 솔직하게 말한다면, 지금 그러고 있는 것 같으니까, 아무튼 그렇다면 제일 중요한 건 그 희망과 꿈 같은 거라는 거지. 
+                    그걸 까먹지 않는 게 어렵긴 하지만. 
+                    인생이란 감각을 무뎌지게 하는 그런 작은 방해꾼들로 가득하지. 
+                    희망과 꿈을 더 모호하게 만드는 그런 것들 말이야.
+                </p><br>
+                <p>
+                    그게 "만약"의 힘인 것 같아. 
+                    다 속이고… 혼자 재미 보고 싶은 그런 욕심이 들잖아.
+                </p><br>
+                <p>
+                    이 만약이라는 건… 해석의 폭을 넓혀주지. 
+                    나야 감각이 무뎌지는 게 좋아. 
+                    해석의 폭이 넣어지는 것도 아아아아아아주 좋아하지. 
+                    하지만 이 두서 없는 "소중한 일기장" 놀이를 제대로 하려면 내가 뭐라고 해야 하겠어…
+                </p><br>
+                <p>
+                    그러니까 내 말은 난 이 "만약"이라는 게 진절머리 난단 소리야. 
+                    게다가 내가 정직한 사람이라면, 사실 내가 정직함 빼면 시체긴 하지만, 솔직히 말해야 하지… 상황이 어떻든 간에 말이야.
+                </p><br>
+                <p>
+                    그러니까… 이건 당신이랑 나만 아는 걸로 해 두자고, 알았지?
+                </p><br>
+                <p>
+                    그럼 이렇게 하자고. 난 케이드-6이고…
+                </p><br>
+                <p>
+                    이건 내 얘기야.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

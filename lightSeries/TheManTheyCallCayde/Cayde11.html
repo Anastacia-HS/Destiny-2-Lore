@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="CaydeCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="Cayde10.html">&lt;</a></li>
+                <li>승자 독식</li>
+                <li><a href="Cayde12.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="케이드라 불린 사나이.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">케이드라 불린 사나이</div>
+                    <div class="subTitle">승자 독식</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    타닉스는 골칫덩이였어.
+                </p><br>
+                <p>
+                    나중엔 그게 진짜 문제는 아니었지만. 
+                    여하튼 문젯거리 목록에서 상위에 있긴 했어.
+                </p><br>
+                <p>
+                    그럼 진짜 문제는 뭐였냐고? 
+                    그 빌어먹을 놈이 아직도 골칫덩이라는 사실이야. 
+                    놈은 수호자도 아니면서 내가 셀 수도 없을 만큼 많이 죽었었단 말이야. 
+                    내 손으로 "죽인" 것만 두 번이었어. 
+                    두 번째 만났을 땐 더 확실하게 할 생각도 했는데, 내가 그놈 가슴팍이랑… 모가지랑… 배때기랑… 머리통에 수십발을 쏴댔지만 항상 마지막에는 패거리들이랑 도망쳐 버렸지.
+                </p><br>
+                <p>
+                    하지만 두 번째는 중요하지 않아. 
+                    아니 그러니까, 그게 물론 중요하긴 한데, 여기서 중요한 건 첫 번째 시도였어…
+                </p><br>
+                <p>
+                    안달과 내가 내기가 아니라 사실은 도전이었던, 그 헌터의 도전 말이야. 
+                    아무튼 그 내기를 했을 때… 우린 타닉스를 찾아내 거하게 복수를 해낼 기대에 가득 차 있었어. 
+                    내가 운 좋게 타닉스를 먼저 찾았고 역시나 또 운 좋게 먼저 죽였지. 
+                    그렇게 생각했어. 
+                </p><br>
+                <p>
+                    우리 다 그렇게 생각했지.
+                </p><br>
+                <p>
+                    그래서 한바탕 축제가 벌어진 거야. 
+                    오시리스까지 왔었어. 
+                    오시리스와 대변자는 타닉스 사냥에 세인트-14를 보냈었거든, 그 최고의 타이탄 말야. 
+                    하지만 우린 헌터였어. 
+                    우리가 선점을 뺏길 리가 없었지.
+                </p><br>
+                <p>
+                    지금 생각해 보면 뺏기는 게 좋았을 것 같지만.
+                </p><br>
+                <p>
+                    아무튼 안달은 내기에 졌으니 약속을 지키려고 선봉대에 들어갔어. 
+                    난 그 결정을 막으려고 설득을 시도했어. 
+                    우린 사고 능력이 마비된 상태에서 그 도전을 수락했던 거라고… 시로와 난 죽다 살아났고, 니안은 죽었고, 러시는 맛이 가버려서 감정이 불안정한 상태였고 잔뜩 취해버린 상황에 저지른 일이었다고 말이야. 
+                    안달은 설득당하지 않았지. 
+                    사실 나도 별로 설득되지 않았어.
+                </p><br>
+                <p>
+                    도전은 도전이었거든. 
+                    그걸 포기하면 다른 헌터들이 두고두고 안달을 문제 삼을 게 뻔했어. 
+                    나한테 그럴 수도 있었지. 
+                    그걸 안달한테 직접 말한 적은 없었지만 녀석도 알았을 거야.
+                </p><br>
+                <p>
+                    안달이 선봉대로 들어간 다음 우리 사이는 좀 어색해졌어. 
+                    다 내 탓이었지. 
+                    안달이 보고 싶었어. 
+                    우주 최고의 규율 파괴자이자 세계 탐험가가 관료 어르신들 사이에 갇혀 있는 꼴이라니. 
+                    하지만 어색함은 또 사라지더라고… 원래 형제끼리는 싸워도 금방 풀리잖아.
+                </p><br>
+                <p>
+                    우리가 새로운 방식에 적응하고 나자 좋은 시절이 또 시작됐지. 그 시절은 계속 이어졌어…
+                </p><br>
+                <p>
+                    얼마 동안만이었지만.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

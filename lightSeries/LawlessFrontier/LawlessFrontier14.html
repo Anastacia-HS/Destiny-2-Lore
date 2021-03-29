@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="LawlessFrontier13.html">&lt;</a></li>
+                <li>총쏘기 그 이상</li>
+                <li>&gt;</li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">총쏘기 그 이상</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    "총싸움을 할 때 신경 쓸 건 많지. 
+                    대부분은 그냥 침착한 조준과 마음가짐에 집중하곤 하는데 그것도 물론 중요하지만 유능한 총잡이라면 더 많은 걸 생각해야 해.
+                </p><br>
+                <p>
+                    "하늘에 빛이 얼마나 있는지라든가 온도나 바람 같은 것 말야. 
+                    얼마나 추운지 더운지, 바람이 어디서 부는지, 그 속도는 어떠한지 등등. 
+                    또 딛고 선 땅도 신경 써야 하지. 
+                    단단한지 부드러운지 움직이거나 미끄러운지 같은 결정적 순간을 만드는 모든 요소에 집중해야 해.
+                </p><br>
+                <p>
+                    "길이 든 총집, 손잡이의 감촉.
+                </p><br>
+                <p>
+                    "이런 것도 중요하지만 가장 중요한 건 최고의 총잡이라면 익숙하지 않은 무기로는 싸우지 않는다는 거야. 
+                    뭐 정말 어쩔 수 없는 상황이거나 명예가 걸린 일이라면 할 수 없지만."
+                </p><br>
+                <p>
+                    - C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

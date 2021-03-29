@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="LawlessFrontier2.html">&lt;</a></li>
+                <li>거짓투성이</li>
+                <li><a href="LawlessFrontier4.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">거짓투성이</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>"진실은 나의 방패이자</p>
+                <p>나의 약점이다.</p>
+                <p>결국엔 우리 모두 배신당해 쓰러질 것이니." </p>
+                <p>- C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌</p><br>
+                <p>
+                    여기 간단한 수수께끼가 있다…
+                </p><br>
+                <p>
+                    "진실만이 거짓을 물리칠 수 있다. 하지만 진실이란 무엇인가? 그 진실은 누구를 기준으로 해야 하는가?"</p><br>
+                <p>
+                    그렇다면 밤베르가의 도살자의 경우는 어떠한가? 
+                    프시케 무리의 학살자는? 
+                    잿빛 군단의 종착지는? 
+                    그림자 장막의 조각은? 
+                    옛 바사의 도적은? 
+                    발리안의 집행유예의 끔찍한 사이렌은?
+                </p><br>
+                <p>
+                    여러 비극을 일으킨 그 수많은 개별 존재는 그럼 어떠한가?
+                </p><br>
+                <p>
+                    협잡꾼, 거짓말쟁이, 언변가이자 수완가 아라스키스.
+                </p><br>
+                <p>
+                    그녀는 거미와의 거래에서는 거미의 목숨을 거의 날릴 뻔했고 십여 명의 현상금 사냥꾼을 속여 혼자 이득을 취하기도 했다. 
+                    그 외에도 아라스키스의 교묘한 손놀림과 말솜씨에 대한 일화는 많다. 
+                    아무런 전투 없이 전투에서 승리한 적이자 도전에 응한 경쟁자보다 훨씬 더 많은 경쟁자의 목숨을 앗아간 자이다.
+                </p><br>
+                <p>
+                    알려진 것과 알려지지 않은 것은 무엇일까? 
+                    확인할 길은 없다. 
+                    그 교활한 말썽꾼이 솔직히 털어놓을 리도 없다.
+                </p><br>
+                <p>
+                    경멸자가 선택한 모든 남작 중에서 가장 두려워해야 할 적은 진실을 와해하는 아라스키스이다. 
+                    그녀가 진실을 말하는 것은 그저 판을 바꾸기 위함이다. 
+                    그녀가 이뤄주는 소원은 한없는 후회로 남게 될 뿐이다.
+                </p><br>
+                <p>
+                    이 곳에 신이 있다면 그녀는 첫 번째 불가사의하고 불결한 악신 중 하나가 될 것이다. 
+                    그녀의 혀는 표적의 몸뚱이가 땅에 닿기도 전에 그 숨통을 끊어 놓을 것이다. 
+                    그녀의 교활한 속임수를 믿지 못하겠다면 간단한 질문을 하나 던져보라.
+                </p><br>
+                <p>
+                    그녀를 죽였는가? 
+                    그랬다면 그녀가 정말 죽었는가?
+                </p><br>
+                <p>
+                    그렇다고 답했다면 함정이 성공적으로 설치된 것이다.
+                </p><br>
+                <p>
+                    그 대답이…
+                </p><br>
+                <p>
+                    아니, 됐다. 직접 말할 필요는 없다. 
+                    당신은 이 거친 해안에서 다른 자들보다 오래 살아남을 수 있을지도 모른다.
+                </p><br>
+                <p>
+                    당신이 원하는 만큼은 아닐 수도 있지만.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

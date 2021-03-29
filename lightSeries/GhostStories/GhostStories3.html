@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories2.html">&lt;</a></li>
+                <li>선택받은 자의 선택</li>
+                <li><a href="GhostStories4.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">선택받은 자의 선택</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    그녀는 그를 다시 한번 부활시키기 위해 집중했다. 
+                    이번 한 번만이었다. 
+                    그녀는 잠시 머뭇거리더니 주변에 펼쳐진 인간 학살의 현장을 살펴봤다.
+                </p><br>
+                <p>
+                    그녀는 이 마을에 도착했을 때를 떠올렸다. 
+                    마을 사람들은 그를 치켜세우고 수많은 선물을 주며 이곳에 머물러 자신들을 안전하게 지켜달라고 애원했다.
+                </p><br>
+                <p>
+                    처음에 그는 주저하는 듯했으나, 이곳에 머무르며 몰락자를 처치하면 할수록 사람들은 더욱 그를 찬양했다. 
+                    그러자 자만심에 빠진 그는 사람들의 환호와 선물에 중독되었고 그것을 당연하게 여겼다.
+                </p><br>
+                <p>
+                    그가 소비하는 양이 점점 많아지면서 마을의 자원은 동이 나기 시작했다. 
+                    그는 다른 마을을 약탈하기 위해 원정을 떠났다. 
+                    경고도 외교 활동도 없었다. 
+                    그는 자신이 승천자의 힘을 갖고 있다고 과시하며 구세주로 찬양할 것을 요구했다. 
+                    그가 한때 보호했던 자들이 그의 명령으로 죽어갔고 사람들은 더더욱 그를 두려워했다.
+                </p><br>
+                <p>
+                    그녀는 그를 다시 빛으로 인도하고 그가 선택받은 이유를 상기시키려 애썼으나 그는 새로운 신하들의 아부에 귀가 멀어 그녀의 말을 듣지 못했다. 
+                    죽은 자들 가운데서 부활에 부활을 거듭하며 그의 전설은 더욱 화려해졌고, 그는 점점 더 탐욕스럽고 무자비해졌다. 
+                    그는 실패에서 교훈을 얻으려 하지 않았으며 불멸을 당연하게 여기기 시작했다.
+                </p><br>
+                <p>
+                    한 겨울밤, 황금 갑옷을 걸친 그는 어부와 강신술사들이 살고 있던 바닷가 마을을 침략했다. 
+                    남자나 여자, 어린아이 할 것 없이 모두 죽었다. 
+                    손쉽게 얻은 승리에 잔뜩 도취되었던 그와 추종자들은 지난 몇 달간 그들을 추적해 온 몰락자 전투 부대의 급습에 대응할 상태가 아니었다. 
+                    엄청난 대학살이 뒤를 이었다. 
+                    이 학살의 현장에서 살아 돌아갈 자는 승천자 중 하나인 그밖에 없었다.
+                </p><br>
+                <p>
+                    그녀는 주변에 널린 처참한 광경에서 눈을 돌려 자신이 선택한 자를 내려다보았다. 
+                    그의 황금 갑옷은 적과 아군의 피로 그 빛이 바랬으나 여전히 그녀의 눈에서 나오는 빛을 받아 반짝였다.
+                </p><br>
+                <p>
+                    그는 자신의 길을 선택한 것이었다. 그러니 그녀도 스스로 선택할 것이다.
+                </p><br>
+                <p>
+                    그녀는 그에게서, 거기에 비춰진 자신에게서 눈을 돌려 태양이 떠오르고 있는 동쪽으로 날아갔다.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

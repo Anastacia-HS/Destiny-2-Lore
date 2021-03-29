@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li>&lt;</li>
+                <li>불모지</li>
+                <li><a href="LawlessFrontier2.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">불모지</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    "어리석게 행동하지 말라. 
+                    이 바위와 금속은 서로 묶여 있지만 길들여진 것은 아니다. 
+                    이런 외딴 곳에선 무법만이 유일한 법이다. 
+                    유일한 정의는 죽음뿐이지.
+                </p><br>
+                <p>
+                    "그러니 머리는 회전 장치에, 손은 검 자루에 대고 항상 조심히 나아가라. 
+                    지금 느껴지는 시선은 너의 명예와 심장… 머리를 노리는 적의 것이니.
+                </p><br>
+                <p>
+                    "그리고 명심하라. 
+                    지금 밟고 있는 땅은 피로 얼룩진 곳이라는 것을. 
+                    이 해안 전체가 말이지… 이곳은 살아남은 자가 극히 드문 황무지다. 
+                    잃어버린 시대의 희미한 빛 아래 이 야생의 땅은 순식간에 희망을 죽음으로 바꿔버리는 곳이었다. 
+                    존재의 마지막 순간을 맞게 되는 무덤이었지.
+                </p><br>
+                <p>
+                    "아직도 비명 소리가 들린다는 자도 있다. 
+                    바로 지척에서 울리는 길 잃고 저주받은 메아리라는 것이다. 
+                    그걸 믿어선 안 된다. 
+                    그건 단지 옛 잔재가 긁히고 구부러지는 소리일 뿐이다. 
+                    낡은 금속 조각들이 바람에 흔들리며 내뱉는 신음 소리거나 쓰레기 더미와 돌맹이가 부딪치며 경고하는 소리지.
+                </p><br>
+                <p>
+                    "이 속박된 땅은 안전하지 않다. 
+                    이 뒤틀린 암초는 만만한 곳이 아니다."
+                </p><br>
+                <p>- C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌</p><br>
+
+                <p>
+                    "원문을 그대로 살릴 방법은 없어."
+                </p><br>
+                <p>
+                    - 케이드-6
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

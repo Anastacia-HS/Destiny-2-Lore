@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="LawlessFrontier4.html">&lt;</a></li>
+                <li>미래 방관자</li>
+                <li><a href="LawlessFrontier6.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">미래 방관자</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>"적을 쏠 때는 먼저 쏘는 게 중요한 게 아니다.</p>
+                <p>속도가 아니라 정확하고 날카로운 눈이 중요하다.</p>
+                <p>그런 다음엔 죽음을 느끼지 말고 직시하면서 이해해라.</p>
+                <p>그러면 방아쇠를 당기는 순간 죽음이 펼쳐지리라."</p>
+                <p>- C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌</p><br>
+
+                <p>
+                    유령 피르하. 
+                    눈먼 자 피르하. 
+                    그는 모든 것을 보는 눈과 뛰어난 사격술을 가진 몰락자 남작이다. 
+                    각성자들은 피르하를 "지옥의 협곡의 유령" 전설에 나오는 그 유령이라고 생각하며, 다른 남작들이 근처 협곡 중앙의 미로 같은 동굴에서 폭력적인 장악을 계획하는 사이 그 구불구불한 협곡을 차지한 그가 홀로 침입자를 제거하고 해적 습격대를 물리쳤다고 믿고 있다. 
+                </p><br>
+                <p>그는 늑대 폭동 당시 모습을 드러내지 않았지만, 많은 이들은 그가 여왕의 궁전 경비대를 암살했다고 믿는다. 
+                    확인할 길은 없지만, 경비대 모두 깔끔하고 정확하며 치명적인 한 발로 쓰러졌다.
+                </p><br>
+                <p>
+                    하지만 어떻게 자기 가문에서 버려지고 멸시받는 눈먼 해적이 화성 이 지역에서 가장 실력 좋은 명사수가 될 수 있었을까?
+                </p><br>
+                <p>
+                    여기에 남작의 진정한 힘이 숨어 있다. 
+                    남작 개개인은 증오받아 마땅한 악마지만, 그들이 뭉치면 얘기가 달라진다. 
+                    힘을 합친 남작은 일개 악마가 아닌 목표가 뚜렷하고 사납고 파괴적인 지옥 그 자체가 된다.
+                </p><br>
+                <p>
+                    여러 소문과 전설에서는 기술자의 전문적인 손길과 총잡이의 인공두뇌학적 시력, 그리고 그의 시야와 연결된 소총의 추적 시스템이 결합된 결과라고 말한다.
+                </p><br>
+                <p>
+                    눈에 보이는 것은 맞추고
+                </p><br>
+                <p>
+                    맞추는 것은 죽이는 것이다.
+                </p><br>
+                <p>
+                    몰락자가 기술에 전념했다는 증거도 있다. 
+                    전혀 다른 보다 나은 존재가 되기 위해 그들은 육체를 예속된 기계와 결합시켰다. 
+                    그 한 예로 용병 타닉스가 있다. 
+                    이젠 몰락자라기보단 기계에 더 가까운 그는 전통적인 몰락자 관습에서 보면 괴인이라 할 수 있다. 
+                    스프라이서와 뒤틀린 실험 SIVA를 통한 그들의 증식은 강력한 강철 영웅들의 손에 종식되었다. 
+                    피르하라고 딱히 다를 게 있을까?
+                </p><br>
+                <p>
+                    남작과 타닉스, 스프라이서는 모두 위험한 존재이자 자신의 야망을 위해 움직이는 존재이다. 
+                    그들은 자신들의 공통점을 깨닫기보다는 서로 싸울 가능성이 더 높다.
+                </p><br>
+                <p>
+                    하지만 그들은 정말 비슷하지 않은가? 
+                    그들 모두 몰락자의 쇠망해 가는 문명의 틈을 잠식해 들어오고 있는 보다 위대한 존재의 증거가 아닌가?
+                </p><br>
+                <p>
+                    새롭고 끔찍한 진화를 경고하는 징후가 아닌가?
+                </p><br>
+                <p>
+                    우리는 이 끔찍한 생명과 기술의 혼종이 다가올 우리의 미래가 아닌 단순한 별종에 지나지 않기를 바라는 수밖에 없다.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

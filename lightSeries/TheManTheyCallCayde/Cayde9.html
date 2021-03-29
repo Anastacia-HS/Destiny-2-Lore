@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="CaydeCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="Cayde8.html">&lt;</a></li>
+                <li>리버</li>
+                <li><a href="Cayde10.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="케이드라 불린 사나이.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">케이드라 불린 사나이</div>
+                    <div class="subTitle">리버</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    명예? 까다로운 개념이지. 
+                    사람마다 의미하는 바가 다르니까.
+                </p><br>
+                <p>
+                    네 말처럼… 아니 그러니까, 네가 네 말을 약속하는 거라고. 
+                    아무튼 한 번 말을 했으면 지키는 거야. 
+                    무슨 일이 있어도 이건 꼭 지켜야 해. 
+                    그게 명예야. 
+                    그리고 말이야…
+                </p><br>
+                <p>
+                    명예는 중요한 거야. 
+                    그 자체로 무기가 될 수 있거든. 
+                    방패도 될 수 있고. 
+                    자발라는 잘 알고 있지. 
+                    아이코라도 알고 있어. 
+                    살라딘이랑 샤크스는 좀 과하게 아는 거 같긴 해. 
+                    모든 훌륭한 수호자도 다 아는 거야.
+                </p><br>
+                <p>
+                    사람들이 네 말을 믿게 되면 너도 믿을 거야. 
+                    그럼 믿음은 뭐냐고? 얻기는 힘든데 잃기는 쉬운 거지. 
+                    아무튼 뭘 약속하면 반드시 지키도록 해. 
+                    그러면 모든 걸 다 잃어도 네 뒤를 봐줄 친구가 생길 거야.
+                </p><br>
+                <p>
+                    넌 그렇게 못 해줘도 말이지. 
+                    일이 꼬이는 바람에 혼자가 되어 이제 끝이다 싶을 때가 와도 옳은 일을 했다고 당당하게 말할 순 있겠지.
+                </p><br>
+                <p>
+                    아, 오해는 하지 말아 줘. 
+                    "옳은 일"이라는 건 명예처럼 애매한 개념이야. 
+                    오만 가지로 해석될 수 있거든.
+                </p><br>
+                <p>
+                    여기선 그저 비유적으로 말 한 거야. 
+                    이런 걸 "워록 흉내"라고 불러. 
+                    내 취향은 아니지만 그들의 사고 방식도 일리가 있을 때가 있어. 
+                    쓰는 단어 같은 거 말야. 
+                    오, 그러고 보니 여기 교훈이 또 있네…
+                </p><br>
+                <p>
+                    남의 장점에서 배우자.
+                </p><br>
+                <p>
+                    난 그 뻣뻣한 타이탄이나 물러 터진 워록과는 공통점이 거의 없지만, 그렇게 다르다는 게 핵심이지.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

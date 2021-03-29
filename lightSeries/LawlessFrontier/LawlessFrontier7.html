@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="LawlessCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="LawlessFrontier6.html">&lt;</a></li>
+                <li>어설픈 진실</li>
+                <li><a href="LawlessFrontier8.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+        
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="무법천지.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">무법천지</div>
+                    <div class="subTitle">어설픈 진실</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>"이곳에서는 자신의 운명을 스스로 쓰는 자가 내일을 맞이할 수 있다. 믿음에만 의지하는 자는 오늘을 살아내기도 어렵다."</p>
+                <p>- C.C. 라그랜지의 "뒤엉킨 해안에서 입수한 기록 및 연구 자료: 몰락자 문서" 번역문에서 발췌</p><br>
+
+                <p>
+                    기술자에 대해 들어본 적이 없다고? 다른 자들은 들어봤을 것이다. 
+                    그녀의 죄악은 도시 사람들에게 잘 알려지지 않았지만, 리프와 각성자는 그녀가 저지른 악행을 아주 잘 알고 있다.
+                </p><br>
+                <p>
+                    그녀는 도적 일라이크리스라고 불렸다. 
+                    골칫거리 일라이크리스. 
+                    경멸자 기술자로도 불린 그녀는 가문 없는 자들의 최고 기술자였다.
+                </p><br>
+                <p>
+                    당신에겐 생소한 이름일 수도 있지만 당신 동료 중엔 분명 그녀의 악행에 시달렸던 자가 있을 것이다.
+                </p><br>
+                <p>
+                    아라크에게 기술자의 행적에 대해 물어보라. 
+                    아란 공격 사건에 대해 물어보라. 
+                    그 납치당한 우주선에서 분실된 물품들과 그 과정에서 전사하거나 포로가 된 수호자들에 대해 물어보라.
+                </p><br>
+                <p>
+                    선봉대에게 솔리스 강하에 대해, 쓰러진 수호자들과 모조리 도난당한 무기고에 대해 물어보라.
+                </p><br>
+                <p>
+                    기존 악습에 도전하다가 추방당한 미천한 드렉에 대해 물어보라. 
+                    버림받은 자들과 함께하며 자신의 힘을 깨닫게 된 그 드렉은 추방자로서 강하고 잔인해졌고 전도사 같은 자와 더욱 열정 넘치는 새 동료들을 통해 목적을 찾았다. 
+                </p><br>
+                <p>
+                    그럼 이제… 스스로 물어봐야 할 게 있다…
+                </p><br>
+                <p>
+                    그 남작의 행적을 알고 있었나? 
+                    기술자가 저지른 죄악에 대해 들어봤나? 
+                    이런 길로 들어서지 않도록 당신이 바꿀 수 있었을 것 같은가? 
+                    다른 미래를 만들 수 있도록?
+                </p><br>
+                <p>
+                    아니면 이걸 물어보라… 
+                    당신의 선봉대, 진영, 친구와 아군 모두 당신에게 숨기는 게 무엇인가? 
+                    그들이 경멸자 남작에 대해 말해주지 않고 경고도 하지 않았다면 그건 그저 그 위험성에 대해 제대로 몰라서 그런 것인가? 
+                    끝없는 전쟁과 자기들 이익 챙기기에 온통 신경을 빼앗겨 평상시처럼 해안 수비에 필요한 정보를 주는 걸 깜빡한 것인가? 
+                    수많은 생명을 살릴 수도 있었던 그런 정보를?
+                </p><br>
+                <p>
+                    아니면 적어도 그 목숨 하나만이라도…
+                </p><br>
+            </div>
+        </div>
+    </body>
+</html>
