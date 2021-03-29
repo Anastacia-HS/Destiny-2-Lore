@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories10.html">&lt;</a></li>
+                <li>경탄</li>
+                <li><a href="GhostStories12.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">경탄</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    난 그들을 올려다봤고 감탄할 수밖에 없었다.
+                </p><br>
+                <p>
+                    그런 일들을 해내고 견뎌내다니.
+                </p><br>
+                <p>
+                    그들 중 이런 두 번째 삶을 원한 자는 아무도 없었다. 
+                    빛에 둘러싸여 깨어나는 부활의 순간에 그들을 맞이한 것은 부서진 세계였다.
+                </p><br>
+                <p>
+                    그런데도…
+                </p><br>
+                <p>
+                    그들은 분연히 일어섰다. 
+                    다시 또다시 넘을 수 없어 보이는 것에 맞서 싸웠다. 
+                    그들의 죽음을 예견한 모두의 반대를 무릅쓰고 말이다.
+                </p><br>
+                <p>
+                    실로 놀라운 투지와 자부심, 열정, 사랑, 기쁨, 희망, 공포, 욕망이 아닐 수 없다. 
+                    그토록 강력한 의지라니. 
+                    어제의 척박한 대지에 새로운 내일의 희망을 새겨 넣을 수 있을 정도로 강력한 것이다.
+                </p><br>
+                <p>
+                    그런 의지는 영감을 준다. 
+                    아주 사소한 승리부터 아주 위대한 정벌에 이르기까지 나는 그 모든 것을 지켜보았다…
+                </p><br>
+                <p>
+                    최초의 성벽이 올라가던 순간과 6개 전선의 용감한 영웅들, 절박했던 황혼의 틈 전투, 악마와의 전쟁, 늑대의 가문을 길들였던 순간을 보았다.
+                </p><br>
+                <p>
+                    나는 또한 강철 군주의 탄생과 몰락, 암흑기의 마지막 주기를 보았다. 
+                    그리고 달과 화성을 탈환하고 정원을 정리하고 군체 왕족을 처치하여 모두에게 새로운 희망을 선사한 새로운 승리에 기뻐하였다.
+                </p><br>
+                <p>
+                    가울과 그 군대의 사건도 있었고… 그렇게나 많은 위협과 도전이 있었으나 우리 수호자들은 이에 맞섰다. 
+                    인류는 버텨낸 것이다.
+                </p><br>
+                <p>
+                    그들은 빛의 힘을 받았으나, 난 이제 그것이 선물이라고 생각하지 않는다. 
+                    그들의 용기, 힘, 인간성이야말로 진정으로 가장 큰 선물이자 가장 강력한 무기인 것이다.
+                </p><br>
+                <p>
+                    이러한 생각은 어떤 혼돈 가운데에서도 기쁨과 어느 정도의 평안함을 주며, 종종 큰 기대에 찬 마음으로 이런 질문을 하게 한다.
+                </p><br>
+                <p>
+                    다음은 어디로 가지?
+                </p><br>
+                <p>
+                    — 카이저라는 고스트의 수호자가 주는 영감에 대한 관찰
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
