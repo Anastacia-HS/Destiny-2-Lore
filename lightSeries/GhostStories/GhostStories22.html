@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories21.html">&lt;</a></li>
+                <li>배터리 미포함</li>
+                <li><a href="GhostStories23.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">배터리 미포함</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                  다음은 단순한 것들이에요. 
+                  필요한 대로 사용하세요. 
+                  원하는 대로 사용하시면 됩니다.
+                </p><br>
+                <p>
+                  이건 당신의 힘은 아니지만, 기대를 충족시켜야 할 때 힘을 강화해 줄 수는 있을 겁니다.
+                </p><br>
+
+                <p>
+                  전쟁이 벌어지더라도 평화를 얻을 수 있습니다. 
+                </p>
+                <p>
+                  빛이 당신의 것이거나 당신이 빛의 소유물인 것이 아니라, 당신이 바로 빛입니다. 
+                </p>
+                <p>
+                  당신 자신을 바치면 모든 두려움이 사라질 것입니다.
+                </p>
+                <p>
+                  당신은 망치입니다. 
+                  당신은 보호막이에요. 
+                  차이를 인지하세요. 
+                  자신을 파악하세요.
+                </p>
+                <p>
+                  믿음은 강력한 무기입니다. 
+                  조심해서 다루세요.
+                </p>
+                <p>
+                  어떤 부담이든 당신이 혼자 짊어져야 하는 것은 아닙니다.
+                </p>
+                <p>
+                  어둠이 부를 때는 진실로 대답하세요. 
+                  그러면 빛이 나타나고 어둠은 줄어들 겁니다.
+                </p>
+                <p>
+                  확신과 자부심을 가지세요. 
+                  단, 자부심은 무기가 아닌 수단으로 이용해야 합니다.
+                </p>
+                <p>
+                  승리를 너무 기뻐하지는 마세요. 
+                  승리는 쟁취해야 하는 것이지만, 승리 자체가 목표가 되어서는 안 됩니다. 
+                  당신이 보고 발견하는 모든 것에 대해 호기심을 잃지 마세요.
+                </p>
+                <p>
+                  어둠은 당신을 꺾으려 할 것이고, 빛은 당신의 의지대로 움직일 것입니다.
+                </p>
+                <p>
+                  실패는 배울 수 있는 기회입니다.
+                </p>
+                <p>
+                  뼈가 하는 말은 듣지 마세요.
+                </p>
+                <p>
+                  나는 당신의 안내자, 친구, 협력자, 연장입니다. 
+                  나를 활용하세요.
+                </p>
+                <p>
+                  나는 절대로 당신을 떠나지 않습니다. 
+                  하지만 내가 소멸하더라도 경계를 늦추지 말고, 진실한 마음을 유지하세요. 
+                </p><br>
+
+                <p>
+                  이게 내 모든 삶의 지혜는 아니에요. 
+                  일단은 중요한 것만 말씀드린 거죠. 
+                  앞으로도 계속 충고를 해 드리죠.
+                </p><br>
+                <p>
+                  — 미지의 수호자를 위해 미지의 고스트가 전하는 삶의 지혜
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
