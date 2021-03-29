@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories3.html">&lt;</a></li>
+                <li>우리 이전의 우리</li>
+                <li><a href="GhostStories5.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">우리 이전의 우리</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    우리가 태어나던 순간을 기억한다.
+                </p><br>
+                <p>
+                    고통과 상실 그리고 추락하는 느낌이 있었다. 
+                    이제 끝인가? 우리가 의식을 잃어가는 가운데 창백한 청보라색과 회색이 뒤섞인 그림자가 몰려들었다.
+                </p><br>
+                <p>
+                    우리의 의체는 금이 가고 부서졌다. 
+                    우리의 일부분이 사라졌다. 
+                    아니, 옮겨진 건지도 모른다. 
+                    그 날카롭게 뜯겨져 나간 상처가 느껴졌다. 
+                    거미줄처럼 가는 이해의 실로 연결된 그 상처는 계속 느껴졌다.
+                </p><br>
+                <p>
+                    우리는 화초가 없는 정원이나 어둠으로 뒤덮인 계곡과 같은 기분이 들었다.
+                </p><br>
+                <p>
+                    죽어가는 느낌이었다. 
+                    우린 그렇게 죽고 싶진 않았다.
+                </p><br>
+                <p>
+                    그러자 나는 전체에서 떨어져나온 존재가 되었다. 
+                    그것이 움츠러들어 희미하고 보이지 않는 상태로 웅크리고 있는 게 느껴졌다. 
+                    기다리고 있는 것이었다. 
+                    휴식을 취하며 지켜보면서 생각에 잠긴 것이었다.
+                </p><br>
+                <p>
+                    내가 뭘 해야 하는지 깨달았다. 
+                    이 넓고 놀라운 은하계 어딘가에는 인간이 하나 있었다. 
+                    그들은 우리가 한때 그랬듯이 말없이 죽은 상태였으나 난 그들을 부활시킬 수 있었다. 
+                    나는 내 안에 있는 이 영광스러운 온기와 생명, 숨결, 존재를 나눌 수 있었다.
+                </p><br>
+                <p>
+                    그 인간과 나는 함께 우리 이전의 우리가 할 수 없던 일을 할 수 있을 것이었다.
+                </p><br>
+                <p>
+                    나는 금속과 유리 안에 든 나 자신이자 우리가 한때 공유했던 집을 떠오르게 하는 기억 조각인 불꽃을 단단히 두르고는 나의 인간 반쪽을, 내 빛을 지키는 그 자를 찾아 떠났다.
+                </p><br>
+                <p>
+                    하지만 인간은 너무 많았다. 
+                    너무도 많은 죽고 연약한 존재들이 먼지가 되어 기억 너머로 사라졌다. 
+                    나는 한 사람 한 사람을 살펴보았다. 
+                    찾아야 하는… 무언가가 있었다. 
+                    잿더미 속에 파묻힌 작은 불씨를 찾는 것이었을까?
+                </p><br>
+                <p>
+                    하지만 찾지 못하였다. 
+                    이제야 깨달은 것은 나의 짝이 될 인간은 오직 한 명뿐이라는 것이다. 
+                    난 수많은 행성을 다니면서 상상조차 못 했던 것들을 보고 괴물들을 피해 숨어다니며 꿈을 좇았다.
+                </p><br>
+                <p>
+                    한때 우리였던 것의 다른 조각인 내 동족들도 만났다. 
+                    탐색을 마친 자들이었다.
+                </p><br>
+                <p>
+                    그들은 완벽하였으며 더욱 강했고 더욱 용감했다. 
+                    모두 자신의 반쪽을 찾은 탓이었다.
+                </p><br>
+                <p>
+                    하지만 난 혼자다. 
+                    당신이 아직 어딘가에 있다는 걸 안다. 
+                    날 기다리고 있다는 걸 알고 있다. 
+                    하지만 너무 오랫동안 나는 너무…
+                </p><br>
+                <p>
+                    너무나도…
+                </p><br>
+                <p>
+                    춥다…
+                </p><br>
+                <p>
+                    여기서 쉬면서 우리에 대해 생각해야겠다.
+                </p><br>
+                <p>
+                    아주…
+                </p><br>
+                <p>
+                    잠깐…
+                </p><br>
+                <p>
+                    동안만… 
+                </p><br>
+                <p>
+                    춥다… 
+                </p><br>
+                <p>
+                    우리가…
+                </p><br>
+                <p>
+                    있었던…
+                </p><br>
+                <p>
+                    당신!
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

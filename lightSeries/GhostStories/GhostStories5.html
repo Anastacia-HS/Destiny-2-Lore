@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories4.html">&lt;</a></li>
+                <li>고스트라 부르지 말아요</li>
+                <li><a href="GhostStories6.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">고스트라 부르지 말아요</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    "저도 이름을 지어주세요."
+                </p><br>
+                <p>
+                    "사기라 때문인가? 아주 물을 잘못 들여놨어."
+                </p><br>
+                <p>
+                    "그녀는 이름이 있잖아요. 누구도 그녀를 '고스트'라고 부르진 않죠. 
+                    그냥 '고스트'라고 불리는 건 모욕적이에요. 난 물건이 아니라 한 존재라고요."
+                </p><br>
+                <p>
+                    "그럼 넌 누군데?"
+                </p><br>
+                <p>
+                    "나는… 잘 모르겠어요. 난 그냥 나예요."
+                </p><br>
+                <p>
+                    "그러면서 나더러 네가 누군지 정하란 거야? 넌 그럼 물건이나 다를 바 없다는 거 아닌가."
+                </p><br>
+                <p>
+                    "당신은 정말 짜증나요, 알고 있어요?"
+                </p><br>
+                <p>
+                    "날 부활시킬 필요는 없었어."
+                </p><br>
+                <p>
+                    "그렇지 않다는 걸 알잖아요."
+                </p><br>
+                <p>
+                    "그럴까?"
+                </p><br>
+                <p>
+                    "또 시작이군요, 타이라. 당신은 모든 것에 의문을 품고 세상 모든 것을 기록하고 분석하고 보관해야 할 수수께끼로 생각하죠."
+                </p><br>
+                <p>
+                    "달리 방도가 없는걸. 의문을 갖지 않고, 연구를 하지 않고, 배우지 않으면 내 목표는 아무것도 없어. 
+                    '모든 정신에는 고유한 형태가 있다.'는 말도 있잖아."
+                </p><br>
+                <p>
+                    "또 철학책이나 읽고 있었군요."
+                </p><br>
+                <p>
+                    "루소를 좀 봤지. 아이코라가 복사본을 빌려줬거든."
+                </p><br>
+                <p>
+                    "흐으으음."
+                </p><br>
+                <p>
+                    "비죽거리지 마, 고스트. 짜증나니까."
+                </p><br>
+                <p>
+                    "계속 고스트라고 부르시는군요. 나도 종이로 덮어버리시던가요 그럼."
+                </p><br>
+                <p>
+                    "네 이름은 네가 골라. 내가 널 대신 정의해 줄 필요는 없잖아."
+                </p><br>
+                <p>
+                    "그러죠 그럼!"
+                </p><br>
+                <p>
+                    … … …
+                </p><br>
+                <p>
+                    "그래? 네 이름은 뭐야, 고스트?" "고스트라고 부르지 마세요."
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
