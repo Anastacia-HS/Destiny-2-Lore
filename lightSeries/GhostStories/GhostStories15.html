@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories14.html">&lt;</a></li>
+                <li>고스트 커뮤니티 극장 제공</li>
+                <li><a href="GhostStories16.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">고스트 커뮤니티 극장 제공</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    고스트 커뮤니티 극장 제공:
+                </p><br>
+
+                <p>
+                    악몽의 아버지 오릭스:
+                </p>
+                <p>
+                    용감한 고스트 대 외계에서 온 사신
+                </p><br>
+
+                <p>
+                    4.1막
+                </p>
+                <p>
+                    각본/연출: 마커스 렌의 고스트 디디
+                </p><br>
+
+                <p>
+                    출연: 
+                </p>
+                <p>
+                    마커스 렌……………………………………..영웅의 고스트
+                </p>
+                <p>
+                    고스트 디디……………………………….수호자 영웅
+                </p>
+                <p>
+                    이노크 바스트…………………………………………………..오릭스
+                </p>
+                <p>
+                    아리아드네 그리스의 고스트 픽시……………………….이르 할라크
+                </p>
+                <p>
+                    스위퍼봇……………………………………………..이르 아누크
+                </p>
+                <p>
+                    이노크 바스트의 고스트 고스트….크로타의 고스트 형체
+                </p><br>
+                
+                <p>
+                    자발라 사령관이 "소품 디자인도 대단히 끔찍한 몰상식하고 무례한 짝퉁 연극"이라고 평가한 연극을 감상하시죠.
+                </p><br>
+                <p>
+                    작품에 등장하는 고스트는 이렇게 말하더군요. "저게 저라구요? 아… 말도 안 돼…"
+                </p><br>
+                <p>
+                    타이라 칸의 고스트인 고스트의 의견입니다. 
+                    "4.1막으로 되어 있다고요? 그건 말도 안… 이야기에도 규칙이 있잖아요! 
+                    이게 무슨… 1막이라는 건 대체… 저기요. 이거 진짜 공연하려는 건 아니죠."
+                </p><br>
+                <p>
+                    아이코라 레이의 고스트인 오퓨커스는 [못마땅한 침묵]을 지켰습니다.
+                </p><br>
+                <p>
+                    샤크스 경은 "열심히 노력했다는 건 인정하지. 근데 대화가 너무… 노골적인 거 아닌가?"
+                </p><br>
+                <p>
+                    타이라 칸의 고스트인 고스트의 의견입니다. "쭉 생각해 봤는데, 
+                    기본적인 이야기 작성법을 다시 배우는 게 좋을 것 같아요. 앉아 봐요. 지금 당장 가르쳐 줄 테니까."
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
