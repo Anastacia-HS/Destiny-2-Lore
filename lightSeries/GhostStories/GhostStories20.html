@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories19.html">&lt;</a></li>
+                <li>수호자의 수호자</li>
+                <li><a href="GhostStories21.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">수호자의 수호자</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                  내 주위엔 온통 절망적으로 뛰어다니는 발소리뿐이다. 
+                </p><br>
+                <p>
+                  방어구를 가르는 마이크로 로켓이 쿵쿵 떨어지는 소리도 들린다. 
+                  허공에는 울음소리와 비명이 가득하다.
+                </p><br>
+                <p>
+                  아무것도… 느껴지지 않는다. 내 몸속엔… 아무것도 없다. 
+                  그냥 얼어붙어 있다. 
+                  난 텅 비어 있다. 
+                  영혼도 없고, 빛도 없다.
+                </p><br>
+                <p>
+                  붉은 군단이 쳐들어와 모든 것을 앗아갔다.
+                </p><br>
+                <p>
+                  자포자기한 듯한 발소리는 결국 사라졌다. 
+                  최후의 도시는 몇 분간 침묵에 휩싸였다. 
+                  그러더니… 낮게 으르렁거리는 그들의 숨소리가 들렸다. 
+                  육중한 슬러그가 진홍빛 방어구에 부딪혀 철컹거리는 쇳소리도 들린다. 
+                  그들이 접근함에 따라 무거운 장화를 신은 떨리는 발소리가 들려온다.
+                </p><br>
+                <p>
+                  뚜벅. 뚜벅. 뚜벅.
+                </p>
+                <p>
+                  인간들은 늘 같은 질문을 한다. 
+                  의미에 대한 질문을. 
+                  이 우주에서 그들이 있을 곳에 대한 질문을.
+                </p><br>
+                <p>
+                  하지만 우린 다르다. 
+                  처음엔 여행자가 우릴 풀어준 날을 이해해 보려고 했지만, 더 이상은 그러지 않는다. 
+                  우린 우리의 목적을 알고 있다. 
+                  우리가 여기 있는 이유를.
+                </p><br>
+                <p>
+                  고대 시대에 인류는 신과 천국, 그리고 날개 달린 보호자가 나타나 통제할 수도, 예측할 수도 없는 악의 존재로부터 자신들을 보호해 주길 꿈꿨다. 그리고 지금은 수호자가 그런 존재라고 생각한다. 
+                  그렇다면 수호자가 위험에 빠지면 누가 보호해 주는 거지?
+                </p><br>
+                <p>
+                  뚜벅. 뚜벅. 뚜벅.
+                </p><br>
+                <p>
+                  그들이 가까이 있다. 
+                  그녀가 이미 자기 고스트를 만났다 해도, 최후의 순간에 내가 수호자 곁을 지키지 않을 거라고 생각한다면 큰 오산이다.
+                </p><br>
+                <p>
+                  난 이렇게 할 운명이다. 
+                  내 빛은 돌아올 것이다. 
+                  그녀에겐 내가 필요하다. 
+                </p><br>
+                <p>
+                  뚜벅. 뚜벅. 뚜벅.
+                </p><br>
+                <p>
+                  붉은 장화를 신은 무거운 발걸음이 모퉁이를 돌았다. 
+                  (난 움직이지 않을 것이다.) 그들이 날 바라본다. 
+                  (난 그녀를 버리지 않을 것이다.) 그들이 무기를 든다. (난 목적을 이룰 것이다.)
+                </p><br>
+                <p>
+                  빛이 쏟아진다… 어떻게 된 거지? 그래… 빛이다! 하하하! 그녀를 되찾을 수 있다! 그녀를…
+                </p><br>
+                <p>
+                  빵!
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
