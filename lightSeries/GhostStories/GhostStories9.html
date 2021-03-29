@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var menu_offset = $('.nav').offset();
+
+                $(window).scroll(function() {
+                    if($(document).scrollTop() > menu_offset.top) {
+                        $('.nav').addClass('nav-fixed')
+                    }else {
+                        $('.nav').removeClass('nav-fixed')
+                    }
+                })
+            })
+
+            $(document).ready(function() {
+                $('menuIcon').click(function() {
+                    $('loreList').slideToggle('slow')
+                })
+            })
+        </script>
+        <link rel="stylesheet" href="GhostStoriesCSS.css">
+    </head>
+    
+    <body>
+        <!--헤더 : 헤더 이미지, 메뉴바-->
+        <div class="header">
+            <!--헤더 이미지-->
+            <div class="headerImg"></div>
+
+            <!--메뉴바-->
+            <div class="nav">
+                <li><a href="GhostStories8.html">&lt;</a></li>
+                <li>깨어있는 눈</li>
+                <li><a href="GhostStories10.html">&gt;</a></li>
+                <img src="menu.png" class="menuIcon">
+            </div>
+        </div>
+
+        
+
+        <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
+        <div class="content">
+            <!--로어 이미지, 로어 제목, 로어 소제목-->
+            <div class="topSection">
+                <div class="loreImg">
+                    <img src="고스트 이야기.png">
+                </div>
+
+                <!--로어 제목, 로어 소제목-->
+                <div class="titleSector">
+                    <div class="title">고스트 이야기</div>
+                    <div class="subTitle">깨어있는 눈</div>
+                </div>
+            </div>
+
+            <!--본문-->
+            <div class="bottomSection">
+                <p>
+                    난 나 자신과 합의했다. 
+                    이 세상 어딘가에 내 반쪽이 없다면, 그러니까 내 수호자를 찾을 수 없다면, 대의를 위해 일할 수 있는 다른 방법을 찾기로 했다.
+                </p><br>
+                <p>
+                    가능한 어떤 방식으로든 도움이 되겠다고 마음먹은 지도 몇 주기가 흘렀고 이젠 계속 나에게 되뇌는 주문과도 같다. 
+                    "내 반쪽이 없다면, 나 혼자서라도 이룰 수 있어야 한다. 내 반쪽이 없다면, 내가 바로 찾을 수 없는 그 영웅이 되리라."
+                </p><br>
+                <p>
+                    당시에는 숭고한 생각 같았다. 
+                    하지만 숭고함이란 선의로 움직인 자를 위험에 빠뜨릴 수도 있는 것이었다. 
+                    하지만 확실히 난 그런 건 상관없다. 
+                    우리 모두 그럴지도 모른다. 
+                    위험이란 옳은 일을 하는 데 따르는 것으로 여기기 때문에 우리가 영웅적인 건지도 모른다.
+                </p><br>
+                <p>
+                    나는 한동안 EDZ 경계를 따라 너무 깊게 들어가지 않도록 주의하면서 몰락자 무리의 움직임을 추적해 왔다. 
+                    어쨌든 난 일개 고스트일 뿐이다. 
+                    수호자가 없으면 전투에 도움을 줄 수 없다. 
+                    하지만 난 보고 배우고 보고할 수는 있다. 
+                    난 빛의 적과 싸우는 나만의 방법을 찾은 것이다.
+                </p><br>
+                <p>
+                    모든 고스트는 지켜보는 능력이 있다. 
+                    우리는 여정을 기록하고 중요 사항은 공유한다. 
+                    이렇게 하는 것은 개척지를 탐사하는 데 도움이 된다. 
+                    아직 이 야생의 땅 대부분은 미지의 땅이기 때문이다.
+                </p><br>
+                <p>
+                    고스트로서 지금의 나와 예전의 나의 차이점이라면 내가 중점을 두는 부분이 달라졌다는 것이다. 
+                    예전엔 수호자를 찾아 연결하겠다는 목적 하나만으로 움직였다면, 지금은 정보를 모으는 첩보 역할에만 충실히 하고 있다.
+                </p><br>
+                <p>
+                    이런 일을 하는 건 나 혼자만이 아니다.
+                </p><br>
+                <p>
+                    나와 같은 고스트 전체를 아우르는 네트워크가 있다. 
+                    자신의 수호자를 찾게 되면 기쁜 마음으로 진정한 빛의 전사를 돕는 것으로 임무를 바꿀 것이지만, 그때까지는 개척지의 광활한 황야를 빠르고 조용히 누비며 적의 움직임을 감시하고 모든 활동을 기록하여 선봉대나 다른 누구에게라도 최후의 안전한 도시 밖에 도사리고 있는 위험에 맞서는 데 도움을 줄 것이다.
+                </p><br>
+                <p>
+                    우리는 작고 그 수도 적으나 용감하다. 
+                    우리는 영웅이다.
+                </p><br>
+                <p>
+                    — 연결되지 않은 고스트, 링크, 선봉대의 비밀 스펙트럼 네트워크의 일부
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
