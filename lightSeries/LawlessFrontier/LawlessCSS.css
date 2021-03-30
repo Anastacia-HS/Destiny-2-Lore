@@ -57,7 +57,7 @@ a:active {
         }
         
         .nav li:first-child {
-            margin-left: 72px;
+            margin-left: 123px;
             color: lightgray;
         }
 
@@ -106,4 +106,47 @@ a:active {
         margin: 20px;
         line-height: 30px;
         font-size: 13pt;
+    }
+
+
+    .menu_btn{
+        float: right;
+        width: 25px;
+
+    }
+    .menu_bg{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        position: fixed;
+        top:0;
+        display: none;
+    }
+    .sidebar_menu{
+        display: none;
+        width: 400px;
+        height: 100%;
+        background: #e98282;
+        position: fixed;
+        top:0;
+        right: -50%;
+        
+    }
+    .close_btn{
+        width: 25px;
+        height: 25px;
+        margin:10px;
+    }
+    .close_btn > a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .menu_wrap{
+        list-style: none;
+        padding: 20px 20px;   
+    }
+    .menu_wrap li a{
+        color: #fff;
+        text-decoration: none;
     }

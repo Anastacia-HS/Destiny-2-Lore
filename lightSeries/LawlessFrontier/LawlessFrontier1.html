@@ -4,29 +4,12 @@
         <title></title>
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                var menu_offset = $('.nav').offset();
-
-                $(window).scroll(function() {
-                    if($(document).scrollTop() > menu_offset.top) {
-                        $('.nav').addClass('nav-fixed')
-                    }else {
-                        $('.nav').removeClass('nav-fixed')
-                    }
-                })
-            })
-
-            $(document).ready(function() {
-                $('menuIcon').click(function() {
-                    $('loreList').slideToggle('slow')
-                })
-            })
-        </script>
+        <script src="LawlessFrontier.js"></script>
         <link rel="stylesheet" href="LawlessCSS.css">
     </head>
     
     <body>
+        
         <!--헤더 : 헤더 이미지, 메뉴바-->
         <div class="header">
             <!--헤더 이미지-->
@@ -37,11 +20,33 @@
                 <li>&lt;</li>
                 <li>불모지</li>
                 <li><a href="LawlessFrontier2.html">&gt;</a></li>
-                <img src="menu.png" class="menuIcon">
+                <li>
+                    <div class="menu_btn">
+                        <a href="#">       
+                            <img src="menu.png" width="25px">
+                        </a>
+                    </div>
+            
+                    
+                </li>
             </div>
         </div>
 
-        
+        <div class="menu_bg"></div>
+            
+                    <div class="sidebar_menu">
+                        <div class="close_btn">
+                            <a href="#">       
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuOTU0IDIxLjAzbC05LjE4NC05LjA5NSA5LjA5Mi05LjE3NC0yLjgzMi0yLjgwNy05LjA5IDkuMTc5LTkuMTc2LTkuMDg4LTIuODEgMi44MSA5LjE4NiA5LjEwNS05LjA5NSA5LjE4NCAyLjgxIDIuODEgOS4xMTItOS4xOTIgOS4xOCA5LjF6Ii8+PC9zdmc+">
+                            </a>
+                        </div>
+                        <ul class="menu_wrap">
+                            <li><a href="#">메뉴01</a></li>
+                            <li><a href="#">메뉴02</a></li>
+                            <li><a href="#">메뉴03</a></li>
+                            <li><a href="#">메뉴04</a></li>
+                        </ul>
+                    </div>
 
         <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
         <div class="content">
@@ -98,5 +103,6 @@
                 </p>
             </div>
         </div>
+        
     </body>
 </html>
