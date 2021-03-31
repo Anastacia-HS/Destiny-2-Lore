@@ -117,16 +117,16 @@ a:active {
     .menu_bg{
         width: 100%;
         height: 100%;
-        background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.5);
         position: fixed;
         top:0;
         display: none;
     }
     .sidebar_menu{
         display: none;
-        width: 400px;
+        width: 350px;
         height: 100%;
-        background: #e98282;
+        background: white;
         position: fixed;
         top:0;
         right: -50%;
@@ -135,7 +135,7 @@ a:active {
     .close_btn{
         width: 25px;
         height: 25px;
-        margin:10px;
+        margin: 20px;
     }
     .close_btn > a{
         display: block;
@@ -144,9 +144,19 @@ a:active {
     }
     .menu_wrap{
         list-style: none;
-        padding: 20px 20px;   
+        padding: 0;   
     }
-    .menu_wrap li a{
-        color: #fff;
+    .menu_wrap li{
         text-decoration: none;
+        text-align: left;
+        line-height: 55px;
+        width: 325px;
+        height: 60px;
+        border-top: 1px solid #D4D3D7;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .menu_wrap li:hover {
+        background-color: #F6B143;
     }
