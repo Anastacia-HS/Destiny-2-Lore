@@ -57,7 +57,7 @@ a:active {
         }
         
         .nav li:first-child {
-            margin-left: 123px;
+            margin-left: 132px;
             color: lightgray;
         }
 
@@ -112,7 +112,7 @@ a:active {
     .menu_btn{
         float: right;
         width: 25px;
-
+        margin: 5px;
     }
     .menu_bg{
         width: 100%;
