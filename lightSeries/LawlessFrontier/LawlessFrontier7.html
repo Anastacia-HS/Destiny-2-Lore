@@ -4,25 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                var menu_offset = $('.nav').offset();
-
-                $(window).scroll(function() {
-                    if($(document).scrollTop() > menu_offset.top) {
-                        $('.nav').addClass('nav-fixed')
-                    }else {
-                        $('.nav').removeClass('nav-fixed')
-                    }
-                })
-            })
-
-            $(document).ready(function() {
-                $('menuIcon').click(function() {
-                    $('loreList').slideToggle('slow')
-                })
-            })
-        </script>
+        <script src="LawlessFrontier.js"></script>
         <link rel="stylesheet" href="LawlessCSS.css">
     </head>
     
@@ -37,8 +19,40 @@
                 <li><a href="LawlessFrontier6.html">&lt;</a></li>
                 <li>어설픈 진실</li>
                 <li><a href="LawlessFrontier8.html">&gt;</a></li>
-                <img src="menu.png" class="menuIcon">
+                <li>
+                    <div class="menu_btn">
+                        <a href="#">       
+                            <img src="menu.png" width="25px">
+                        </a>
+                    </div>
+                </li>
             </div>
+        </div>
+
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn">
+                <a href="#">       
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuOTU0IDIxLjAzbC05LjE4NC05LjA5NSA5LjA5Mi05LjE3NC0yLjgzMi0yLjgwNy05LjA5IDkuMTc5LTkuMTc2LTkuMDg4LTIuODEgMi44MSA5LjE4NiA5LjEwNS05LjA5NSA5LjE4NCAyLjgxIDIuODEgOS4xMTItOS4xOTIgOS4xOCA5LjF6Ii8+PC9zdmc+">
+                </a>
+            </div>
+                
+            <ul class="menu_wrap">
+                <li><a href="LawlessFrontier1.html">불모지</a></li>
+                <li><a href="LawlessFrontier2.html">그 혀끝으로 멸망하리라</a></li>
+                <li><a href="LawlessFrontier3.html">거짓투성이</a></li>
+                <li><a href="LawlessFrontier4.html">10배의 비통</a></li>
+                <li><a href="LawlessFrontier5.html"></a>미래 방관자</a></li>
+                <li><a href="LawlessFrontier6.html">누더기 계곡 영혼</a></li>                    
+                <li style="background-color: orange;">어설픈 진실</li>
+                <li><a href="LawlessFrontier8.html">믿음의 진화</a></li>
+                <li><a href="LawlessFrontier9.html">경멸자의 길</a></li>
+                <li><a href="LawlessFrontier10.html">광기의 선물</a></li>
+                <li><a href="LawlessFrontier11.html">영웅은 없다</a></li>
+                <li><a href="LawlessFrontier12.html">고독한 자와 죽은 자</a></li>
+                <li><a href="LawlessFrontier13.html">엘드레드 러시의 슬픈 이야기</a></li>
+                <li><a href="LawlessFrontier14.html">총쏘기 그 이상</a></li>
+            </ul>
         </div>
         
         <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
