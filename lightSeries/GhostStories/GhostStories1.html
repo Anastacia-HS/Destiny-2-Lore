@@ -4,25 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                var menu_offset = $('.nav').offset();
-
-                $(window).scroll(function() {
-                    if($(document).scrollTop() > menu_offset.top) {
-                        $('.nav').addClass('nav-fixed')
-                    }else {
-                        $('.nav').removeClass('nav-fixed')
-                    }
-                })
-            })
-
-            $(document).ready(function() {
-                $('menuIcon').click(function() {
-                    $('loreList').slideToggle('slow')
-                })
-            })
-        </script>
+        <script src="LawlessFrontier.js"></script>
         <link rel="stylesheet" href="GhostStoriesCSS.css">
     </head>
     
