@@ -107,3 +107,61 @@ a:active {
         line-height: 30px;
         font-size: 13pt;
     }
+
+    .menu_btn{
+        float: right;
+        width: 25px;
+        margin: 5px;
+    }
+    .menu_bg{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        top:0;
+        display: none;
+    }
+    .sidebar_menu{
+        display: none;
+        width: 350px;
+        height: 100%;
+        background: white;
+        position: fixed;
+        top:0;
+        right: -50%;
+        overflow: auto;
+        overflow-x:hidden;
+    }
+    .close_btn{
+        width: 25px;
+        height: 25px;
+        margin: 20px;
+    }
+    .close_btn > a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .menu_wrap{
+        list-style: none;
+        padding: 0;
+        
+    }
+    .menu_wrap li{
+        text-decoration: none;
+        text-align: left;
+        line-height: 55px;
+        width: 325px;
+        height: 60px;
+        border-top: 1px solid #D4D3D7;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    
+    .menu_wrap li:first-child {
+        margin-top: 50px;
+    }
+
+    .menu_wrap li:hover {
+        background-color: #AEAEAE;
+    }

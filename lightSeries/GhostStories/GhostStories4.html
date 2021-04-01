@@ -4,25 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                var menu_offset = $('.nav').offset();
-
-                $(window).scroll(function() {
-                    if($(document).scrollTop() > menu_offset.top) {
-                        $('.nav').addClass('nav-fixed')
-                    }else {
-                        $('.nav').removeClass('nav-fixed')
-                    }
-                })
-            })
-
-            $(document).ready(function() {
-                $('menuIcon').click(function() {
-                    $('loreList').slideToggle('slow')
-                })
-            })
-        </script>
+        <script src="GhostStories.js"></script>
         <link rel="stylesheet" href="GhostStoriesCSS.css">
     </head>
     
@@ -37,11 +19,50 @@
                 <li><a href="GhostStories3.html">&lt;</a></li>
                 <li>우리 이전의 우리</li>
                 <li><a href="GhostStories5.html">&gt;</a></li>
-                <img src="menu.png" class="menuIcon">
+                <li>
+                    <div class="menu_btn">
+                        <a href="#">       
+                            <img src="menu.png" width="25px">
+                        </a>
+                    </div>
+                </li>
             </div>
         </div>
 
-        
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn">
+                <a href="#">       
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuOTU0IDIxLjAzbC05LjE4NC05LjA5NSA5LjA5Mi05LjE3NC0yLjgzMi0yLjgwNy05LjA5IDkuMTc5LTkuMTc2LTkuMDg4LTIuODEgMi44MSA5LjE4NiA5LjEwNS05LjA5NSA5LjE4NCAyLjgxIDIuODEgOS4xMTItOS4xOTIgOS4xOCA5LjF6Ii8+PC9zdmc+">
+                </a>
+            </div>
+                
+            <ul class="menu_wrap">
+                <li><a href="GhostStories1.html">압력</a></li>
+                <li><a href="GhostStories2.html">고스트 사냥꾼</a></li>
+                <li><a href="GhostStories3.html">선택받은 자의 선택</a></li>
+                <li style="background-color: #272727; color: white;">우리 이전의 우리</li>
+                <li><a href="GhostStories5.html">고스트라 부르지 말아요</a></li>
+                <li><a href="GhostStories6.html">찬사</a></li>                    
+                <li><a href="GhostStories7.html">지친 자에게 부활은 없다</a></li>
+                <li><a href="GhostStories8.html">희망의 고백 | 1부</a></li>
+                <li><a href="GhostStories9.html">깨어있는 눈</a></li>
+                <li><a href="GhostStories10.html">전투 돌입</a></li>
+                <li><a href="GhostStories11.html">경탄</a></li>
+                <li><a href="GhostStories12.html">희망의 고백 | 2부</a></li>
+                <li><a href="GhostStories13.html">영웅의 진혼곡</a></li>
+                <li><a href="GhostStories14.html">몰락자의 땅에서</a></li>
+                <li><a href="GhostStories15.html">고스트 커뮤니티 극장 제공</a></li>
+                <li><a href="GhostStories16.html">의견의 차이</a></li>
+                <li><a href="GhostStories17.html">고스트의 보호자</a></li>
+                <li><a href="GhostStories18.html">사빈</a></li>
+                <li><a href="GhostStories19.html">돼지 수육</a></li>
+                <li><a href="GhostStories20.html">수호자의 수호자</a></li>
+                <li><a href="GhostStories21.html">풍차와 학</a></li>
+                <li><a href="GhostStories22.html">배터리 미포함</a></li>
+                <li><a href="GhostStories23.html">미지의 지도</a></li>
+            </ul>
+        </div>
 
         <!--콘텐츠 : 로어 이미지, 로어 제목, 로어 소제목, 본문-->
         <div class="content">
